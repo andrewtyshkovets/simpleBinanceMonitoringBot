@@ -15,6 +15,11 @@ configurations {
 	}
 }
 
+bootRun {
+	main = "com.dronCryptoman.BinanceApiBot.BinanceApiBotApplication.java"
+}
+
+
 repositories {
 	mavenCentral()
 }
