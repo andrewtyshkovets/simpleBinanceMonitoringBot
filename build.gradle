@@ -44,7 +44,7 @@ test {
 jar {
 	manifest {
 		attributes(
-				'Main-Class': 'main.com.dronCryptoman.BinanceApiBot.BinanceApiBotApplication.java'
+				'Main-Class': 'main.com.dronCryptoman.BinanceApiBot.BinanceApiBotApplication'
 		)
 	}
 }
