@@ -1,0 +1,15 @@
+#database
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USER}
+    password: ${DATASOURCE_PASSWORD}
+
+
+
+#Binance Gateway
+base-endpoint: ${BASE_ENDPOINT}
+
+owner-email: ${EMAIL_ADRESS}
+
